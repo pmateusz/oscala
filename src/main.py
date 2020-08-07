@@ -5,7 +5,18 @@ import bibtexparser.bparser
 
 abbreviations = {'Crime, Law and Social Change': 'CL&SC',
                  'New York Law School Law Review': 'N.Y.U. L. Rev.',
-                 'Utrecht Law Review': 'Utrecht L Rev'}
+                 'Utrecht Law Review': 'Utrecht L Rev',
+                 'Compliance & Risk Journal': 'CRJ',
+                 'Criminal Law Review': 'Crim.L.R.',
+                 'The Journal of Criminal Law': 'J.Crim.L.',
+                 'Arab Law Quarterly': 'Arab L.Q.',
+                 'International Journal of Social Science and Humanity': 'IJSSH',
+                 'Journal of International Banking Law and Regulation': 'JIBLR',
+                 'Journal of Business Law': 'JBL',
+                 'International Journal of Cultural Property': 'Int J Cult Property',
+                 'Dublin University Law Journal': 'DULJ',
+                 'New Criminal Law Review': 'New Crim. Law Rev.',
+                 'Journal of Money Laundering Control': 'JMLC'}
 
 
 def get_suffix(number: int) -> str:
